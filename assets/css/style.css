@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #ced4da;
+}
+.container{
+    padding: 0px 150px 50px;
+}
+.container h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.form-group{
+    display: flex;
+    flex-flow: column;
+}
+.form-group label{
+    font-size: 18px;
+    margin: 5px 0px;
+}
+.form-group input{
+width: 35%;
+height: 25px;
+border-radius: 5px;
+}
+.simpan, .update{
+    width: 100px;
+    height: 30px;
+    margin-top: 25px;
+    background: transparent;
+    border:2px solid green;
+    border-radius: 6px;
+    font-size: 17px;
+}
+.kembali{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    height: 27px;
+    line-height: 27px;
+    border: 2px solid red;
+    border-radius: 6px;
+    font-size: 17px;
+    text-align: center;
+}
+.simpan:hover, .update:hover{
+background: green;
+color: white;
+cursor: pointer;
+}
+.kembali:hover{
+    background: red;
+    color: white;
+    cursor: pointer;
+    }
+
+.tampil_data table{
+    border-collapse: collapse;
+}
+.tampil_data th, td{
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+.tampil_data th{
+    background: #999;
+}
+.tampil_data tr:nth-child(odd){
+    background: lightblue;
+}
+.tampil_data td a{
+    color: black;
+    text-decoration: none;
+}
